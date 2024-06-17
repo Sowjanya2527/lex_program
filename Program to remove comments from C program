@@ -1,6 +1,6 @@
 /% Lex Program to remove comments from C program 
 and save it in a file %/ 
-/*Definition Section*/ 
+
 %{ 
 %}
 
