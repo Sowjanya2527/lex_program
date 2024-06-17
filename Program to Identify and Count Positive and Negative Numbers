@@ -4,8 +4,7 @@ Positive and Negative Numbers */
 int positive_no = 0, negative_no = 0; 
 %} 
 
-/* Rules for identifying and counting 
-positive and negative numbers*/
+
 %% 
 ^[-][0-9]+ {negative_no++; 
 			printf("negative number = %s\n", 
@@ -16,7 +15,7 @@ positive and negative numbers*/
 				yytext);} // positive number	 
 %% 
 
-/*** use code section ***/
+
 
 int yywrap(){} 
 int main()											 
