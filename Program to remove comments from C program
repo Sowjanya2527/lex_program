@@ -4,12 +4,6 @@ and save it in a file %/
 %{ 
 %}
 
-/*Starting character sequence for multiline comment*/ 
-start \/\* 
-/*Ending character sequence for multiline comment*/ 
-end \*\/ 
-
-/*Rule Section*/ 
 %% 
 
 /*Regular expression for single line comment*/ 
