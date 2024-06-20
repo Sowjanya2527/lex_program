@@ -4,10 +4,10 @@
 int n = 0 ; 
 %} 
 
-// rule section 
+
 %% 
 
-//count number of keywords 
+
 "while"|"if"|"else" {n++;printf("\t keywords : %s", yytext);} 
 
 // count number of keywords 
