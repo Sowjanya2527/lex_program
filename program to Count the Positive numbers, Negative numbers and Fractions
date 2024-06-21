@@ -9,7 +9,7 @@
 	int negativefractions=0; 
 %} 
 
-/* Rule Section */
+
 DIGIT [0-9] 
 %% 
 
