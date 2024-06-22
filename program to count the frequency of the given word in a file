@@ -1,11 +1,7 @@
 /* LEX code to count the frequency
 of the given word in a file */
 
-/* Definition section */
-/* variable word indicates the word
-whose frequency is to be count */
-/* variable count is used to store the 
-frequency of the given word */
+
 
 %{
 #include<stdio.h>
