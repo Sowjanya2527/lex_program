@@ -5,7 +5,6 @@
 int i = 0; 
 %} 
 
-/* Rules Section*/
 %% 
 ([a-zA-Z0-9])* {i++;} /* Rule for counting 
 						number of words*/
