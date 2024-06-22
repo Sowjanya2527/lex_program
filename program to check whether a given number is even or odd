@@ -17,7 +17,6 @@ int i;
 
 int yywrap(){} 
 
-/* Driver code */
 int main() 
 { 
 
