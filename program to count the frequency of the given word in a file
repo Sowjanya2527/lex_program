@@ -13,12 +13,7 @@ int count = 0;
 
 %}
 
-/* Rule Section */
-/* Rule 1 compares the matched token with the
-word to count and increments the count variable
-on successful match */
-/* Rule 2 matches everything other than string 
-(consists of alphabets only ) and do nothing */
+
 
 %%
 [a-zA-Z]+ { if(strcmp(yytext, word)==0)
