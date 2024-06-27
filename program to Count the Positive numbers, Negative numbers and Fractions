@@ -2,7 +2,7 @@
 	- Negative numbers and Fractions */
 
 %{ 
-	/* Definition section */
+	
 	int postiveno=0; 
 	int negtiveno=0; 
 	int positivefractions=0; 
