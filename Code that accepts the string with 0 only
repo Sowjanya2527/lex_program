@@ -19,15 +19,10 @@
 <DEAD>\n BEGIN INITIAL; {printf("Invalid\n");} 
 
 %% 
-
-	
-
 int yywrap() 
 { 
 return 1; 
 } 
-
-
 int main() 
 { 
 printf("Enter String\n"); 
