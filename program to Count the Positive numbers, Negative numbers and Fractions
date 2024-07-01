@@ -19,9 +19,7 @@ DIGIT [0-9]
 \+?{DIGIT}*\.{DIGIT}+ positivefractions++; 
 -{DIGIT}*\.{DIGIT}+	 negativefractions++; 
 . ; 
-%% 
-
-// driver code 
+%%
 int main() 
 { 
 	yylex(); 
