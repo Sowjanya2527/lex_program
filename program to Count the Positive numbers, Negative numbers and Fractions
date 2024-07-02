@@ -9,7 +9,6 @@
 	int negativefractions=0; 
 %} 
 
-
 DIGIT [0-9] 
 %% 
 
