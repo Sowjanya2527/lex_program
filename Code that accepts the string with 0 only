@@ -5,6 +5,7 @@
 
 
 %% 
+
 <INITIAL>0 BEGIN A; 
 <INITIAL>[^0\n] BEGIN DEAD; 
 <INITIAL>\n BEGIN INITIAL; {printf("Not Accepted\n");} 
