@@ -4,7 +4,6 @@ Positive and Negative Numbers */
 int positive_no = 0, negative_no = 0; 
 %} 
 
-
 %% 
 ^[-][0-9]+ {negative_no++; 
 			printf("negative number = %s\n", 
