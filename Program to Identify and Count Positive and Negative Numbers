@@ -15,7 +15,6 @@ int positive_no = 0, negative_no = 0;
 %% 
 
 
-
 int yywrap(){} 
 int main()											 
 { 
